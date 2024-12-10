@@ -1,6 +1,6 @@
 saida.out:
-	gcc -c ponto.c main.c
-	gcc -o a.out ponto.o main.o
+	gcc -c ponto.c main.c 
+	gcc -o a.out ponto.o main.o -lm
 
 clean:
 	rm a.out *.o

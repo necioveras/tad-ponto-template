@@ -106,9 +106,9 @@ expected_output="Pontos lidos:
 
 Pontos escolhidos:
 Ponto 23: (5.3, -1.1)
-Ponto 87: (4.7, 3.5)
+Ponto 87: (-4.0, 2.0)
 
-Distância: 4.63"
+Distância: 9.80"
 
 if [ $? -eq 0 ] ; then
   echo "Running ok: Program exited zero"
